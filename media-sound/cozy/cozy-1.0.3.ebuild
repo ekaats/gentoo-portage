@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="gui-libs/libhandy media-libs/mutagen dev-python/distro dev-python/peewee dev-python/pygobject"
+DEPEND="gui-libs/libhandy media-libs/mutagen dev-python/distro dev-python/peewee dev-python/pygobject dev-libs/granite"
 RDEPEND="${DEPEND}"
 BDEPEND="dev-util/meson x11-libs/gtk+ dev-python/pkgconfig gui-libs/gtk:4"
 
